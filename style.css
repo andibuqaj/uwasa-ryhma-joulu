@@ -67,7 +67,7 @@ section::before {
 }
 
 nav {
-    text-align: left;
+    text-align: center;
 }
 nav a {
     padding:5px;
