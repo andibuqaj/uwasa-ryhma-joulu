@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto;
+    background-image: url('joulupallo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: goldenrod;
+}
+
+header {
+    color: go;
+    padding: 1em;
+    font-size: 2em;
+}
+
+section {
+    margin-top: 10px;
+    margin: 1em;
+    text-align: center;
+}
+
+.gift-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gift {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f0f0f0;
+    
+}
+
+.gift img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.gift h3 {
+    color: #333;
+}
+
+section::before {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.gift-container::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.gift::before {
+    content: "";
+    font-size: 1.5em;
+    color: #c62828;
+    float: left;
+    margin-right: 5px;
+}
